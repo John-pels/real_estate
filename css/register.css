@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('../img/intro-bg.jpg');
+	background-size: cover;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+/*@keyframes change {
+		from {
+			background:url('..img/intro.jpg') center center;
+		}
+		to {
+			background:url('..img/portfolio/06-large.jpg') center no-repeat;
+		}
+}*/
+/*.container {
+	background: rgb(0,0,0,0.6);
+}
+*/
+.tab {
+	background: rgb(0,0,0,0.6);
+	height: 40px;
+	margin-top: -290px;
+	border-radius: 10px;
+}
+/*.header {
+	background: #fff;
+}*/
+/*.section_tabs {
+	margin-left: 140px;
+}*/
+.content_wrap {
+	background: rgb(0,0,0,0.6);
+	min-height: 600px;
+	padding: 50px;
+	margin-top: -252px;
+	border-radius: 10px;
+
+}
+.content_wrap:hover, .tab:hover{
+	background: rgb(0,0,0,0.9);
+	box-shadow: 0 0 8px 0 #858585;
+}
+	#form-title {
+		color:#fff;
+		text-align: center;
+		font-size: 15px; 
+		font-weight: bold;
+	}
+/*input {
+	margin-bottom: 10px;
+padding-left: 10px;
+	
+}*/
+.form-name:before{
+	content:"\f007";
+	font-family: "FontAwesome";
+	position: absolute;
+	line-height:35px;
+	margin-left: -200px;
+	color:#fff;
+	
+
+}
+.form-email:before{
+	content:"\f0e0";
+	font-family: "FontAwesome";
+	position: absolute;
+	line-height: 35px;
+	margin-left: -200px;
+		color:#fff;
+
+}
+.form-pass:before{
+	content:"\f084";
+	font-family: "FontAwesome";
+	position: absolute;
+	line-height: 35px;
+	margin-left: -200px;
+		color:#fff;
+
+}
+.form-cpass:before{
+	content:"\f084";
+	font-family: "FontAwesome";
+	position: absolute;
+	line-height: 35px;
+	margin-left: -200px;
+		color:#fff;
+}
+.form-phone:before{
+	content:"\f095";
+	font-family: "FontAwesome";
+	position: absolute;
+	line-height: 35px;
+	margin-left: -200px;
+		color:#fff;
+
+}
+
+.form-input,.form-input2 {
+	margin-left: 23px;
+
+}
+.header  {
+	
+	margin-top: 50px;
+	margin-bottom: 30px;
+	
+}
+.header img {
+	width: 270px;
+	height:440px;
+	margin-top: 40px;
+	/*margin-bottom: 40px;*/
+	
+}
+.form-name input[type="text"] {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-email input[type="email"] {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-pass input[type="password"], .form-cpass input[type="password"] {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-phone input[type="text"] {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-country select {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-gender select {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-address textarea {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
+.form-description textarea {
+	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+	background: none;
+	color: #fff;
+	font-size: 15px;
+	
+}
